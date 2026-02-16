@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Praticando o vídeo da rafaela">
+    <title>Praticando HTML</title>
+    <link rel="shortcut icon" href="https://stardewvalleywiki.com/mediawiki/images/b/b2/Animals_Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Stardew Valley</h1>
+        <p>Teste seus conhecimentos sobre <strong>Stardew Valley</strong>! Preencha os campos corretamente para conhecer você melhor!</p>
+        <figure>
+            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865" alt="imagem_ilustrativa" width="300">
+        </figure>
+        <p>Nota: Este formulário foi <abbr title="Desenvolvido">dev</abbr> totalmente em <em>Português</em>.</p>
+    </header>
+    <main>
+        <section> <!--Perguntas-->
+            <form>
+                <fieldset>
+                    <legend>Questionário</legend>
+                    <ol>
+                        <li id="pergunta1">
+                            <h2>Quando o jogo foi lançado?</h2>
+                            <input type="radio" name="pergunta1" id="p1a" value="2014">
+                            <label for="p1a">2014</label>
+                            <input type="radio" name="pergunta1" id="p1b" value="2015">
+                            <label for="p1b">2015</label>
+                            <input type="radio" name="pergunta1" id="p1c" value="2016">
+                            <label for="p1c">2016</label>
+                            <input type="radio" name="pergunta1" id="p1d" value="2017">
+                            <label for="p1d">2017</label>
+                        </li>
+                        <li id="pergunta2">
+                            <h2>Qual seu personagem preferido no jogo?</h2>
+                            <input type="text" name="pergunta2" id="p2" placeholder="Digite aqui...">
+                        </li>
+                        <li id="pergunta3">
+                            <h2>Imagine uma senha usada pelo Lewis enquanto solta um tremendo xingamento:</h2>
+                            <p><abbr title="Observação">Obs.</abbr>: A senha deve conter letras, números e símbolos!</p>
+                            <input type="password" name="pergunta3" id="p3" placeholder="Digite aqui...">
+                        </li>
+                        <li id="pergunta4">
+                            <h2>Quando você comprou o jogo?</h2>
+                            <input type="date" name="pergunta4" id="p4">
+                        </li>
+                        <li id="pergunta5">
+                            <h2>Qual dos personagens abaixo é rensável por gerenciar a vila?</h2>
+                            <select name="pergunta5" id="p5">
+                                <option value="Lewis">Lewis</option>
+                                <option value="Elliott">Elliott</option>
+                                <option value="Feiticeiro">Feiticeiro</option>
+                                <option value="Linus">Linus</option>
+                                <option value="Marlon">Marlon</option>
+                            </select>
+                        </li>
+                        <li id="pergunta6">
+                            <h2>Qual(is) dos personagens abaixo não é(são) casáveis?</h2>
+                            <input type="checkbox" name="pergunta6" id="p6a" value="Linus">
+                            <label for="p6a">Linus</label><br>
+                            <input type="checkbox" name="pergunta6" id="p6c" value="Maru">
+                            <label for="p6c">Maru</label><br>
+                            <input type="checkbox" name="pergunta6" id="p6b" value="Clint">
+                            <label for="p6b">Clint</label><br>
+                            <input type="checkbox" name="pergunta6" id="p6d" value="Harvey">
+                            <label for="p6d">Harvey</label><br>
+                            <input type="checkbox" name="pergunta6" id="p6e" value="Elliott">
+                            <label for="p6e">Elliott</label>
+                        </li>
+                        <li id="pergunta7">
+                            <h2>Você tem alguma foto que registrou um bom momento durante sua jogatina?</h2>
+                            <p><abbr title="Observação">Obs.:</abbr> O arquivo deve ser do tipo <em>.jpg</em>, <em>.png</em> ou <em>.jpeg</em>.</p>
+                            <input type="file" name="pergunta7" id="p7" accept=".jpg, .png, .jpeg">
+                        </li>
+                        <li id="pergunta8">
+                            <h2>Qual é a fazenda representada abaixo?</h2>
+                            <figure>
+                                <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/a/ae/Riverlands_Farm_thumb.png/200px-Riverlands_Farm_thumb.png" alt="Fazenda">
+                                <figcaption>Fonte: <a href="https://stardewvalleywiki.com/" target="_blank">Stardew Valley Wiki</a></figcaption>
+                            </figure>
+                            <table border="2" cellspacing="3">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Nome da fazenda</th>
+                                        <th>Habilidade relacionada</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input type="radio" name="pergunta8" id="p8a" value="Fazenda entre riachos"></td>
+                                        <td>Fazenda entre riachos</td>
+                                        <td>Pesca</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" name="pergunta8" id="p8b" value="Fazenda padrão"></td>
+                                        <td>Fazenda padrão</td>
+                                        <td>Cultivo</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" name="pergunta8" id="p8c" value="Fazenda na colina"></td>
+                                        <td>Fazenda na colina</td>
+                                        <td>Mineração</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" name="pergunta8" id="p8d" value="Fazenda na floresta"></td>
+                                        <td>Fazenda na floresta</td>
+                                        <td>Coleta</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">Cada fazenda, uma experiência diferente!</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </li>
+                        <li id="pergunta9">
+                            <h2>Conhecendo mais você:</h2>
+                            <p>Preencha cada campo com suas respectivas informações.</p>
+                            <ul>
+                                <li>
+                                    <h3>Nome</h3>
+                                    <label for="p9nome"></label>
+                                    <input type="text" name="pergunta9nome" id="p9nome" placeholder="Digite aqui...">
+                                </li>
+                                <li>
+                                    <h3>e-mail</h3>
+                                    <label for="p9email"></label>
+                                    <input type="email" name="pergunta9email" id="p9email" placeholder="Digite aqui...">
+                                </li>
+                                <li>
+                                    <h3>Conte suas experiências com o jogo</h3>
+                                    <textarea name="pergunta9" id="p9" cols="30" rows="10" placeholder="Sug.: Jogabilidade, familiaridade, cooperativo, desafios, história, etc."></textarea>
+                                </li>
+                            </ul> 
+                        </li>
+                    </ol>
+                </fieldset>
+                <button type="submit">Enviar formulário</button>
+            </form>
+        </section>
+        <section> <!--Gabarito-->
+            <p>
+                <h2>Gabarito</h2>
+                <details>
+                    <summary>
+                        Clique aqui para revelar o gabarito
+                    </summary>
+                    <p>
+                        1 - 2016 <br>
+                        3 - Abc123!@# <br>
+                        5 - Lewis <br>
+                        8 - Fazenda entre riachos <br>
+                    </p>
+                </details>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Agradecemos por chegar até aqui, até uma próxima!
+            <br> <em>Desenvolvido por Fatz &copy;</em>
+        </p>
+    </footer>
+</body>
+</html>

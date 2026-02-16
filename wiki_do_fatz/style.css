@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(41, 153, 197),rgb(231, 237, 239));
+    font-family: "Sour Gummy", sans-serif;
+    font: 800;
+}
+
+header {
+    padding: 0;
+    text-align: center;
+}
+
+
