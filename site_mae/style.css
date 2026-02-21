@@ -9,29 +9,132 @@
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
-    "wdth" 100;
+        "wdth" 100;
 }
 
-header {
-    background-color: rgb(193, 86, 185);
+body {
+    background: linear-gradient(to right, #ff42b3, #c361c6, #8780d9, #4a9fec, #0ebeff);
 }
 
 h1 {
     text-align: center;
     padding: 2rem;
     font-size: 7rem;
-    color: rgb(205, 187, 204);
+    color: rgb(253, 248, 211);
     text-shadow: #000 0rem 0rem 2rem;
 }
 
 header p {
     text-align: center;
     padding-bottom: 2rem;
-    color: rgb(35, 31, 34);
+    color: rgb(255, 245, 200);
     text-shadow: #c4bbbb 0rem 0rem 1.5rem;
+    font-size: 3rem;
+}
 
-    
+main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+figure {
+    padding: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: -4.5rem;
+}
+
+.fotopraia {
+    padding-top: 4.25rem;
+}
+
+.fotocarnaval img {
+    width: 150%;
+}
+
+img {
+    border: 3rem solid #f9faf8;
+    border-bottom: 6rem solid #c778af;
+    border-top: 6rem solid #c778af;
+    box-shadow: 0 0 5rem #fcfcfc;
+}
+
+@keyframes brilhoPersonalizado {
+
+    0% {
+        text-shadow: 0 0 1.5rem #ff42b3;
+        transform: scale(0.8);
+    }
+
+
+    50% {
+        transform: scale(1.2);
+        text-shadow: 0 0 2rem #ff0f0f;
+    }
+
+
+    100% {
+        text-shadow: 0 0 1.5rem #ff42b3;
+        transform: scale(0.8);
+    }
+
 }
 
 
 
+
+.brilho {
+    animation: brilhoPersonalizado 2s infinite;
+    display: inline-block;
+    text-shadow: 0 0 1.5rem #ff42b3;
+}
+
+footer p {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    text-shadow: #c4bbbb 0rem 0rem 1rem;
+    color: #ffd8fb;
+}
+
+details {
+    background: #e59de5;
+    padding: 2rem;
+    width: 50%;
+    margin-left: 2rem;
+    border: 0.2rem solid #ffffff;
+    cursor: pointer;
+    box-shadow: 0 0 3rem #fcfcfc;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+
+summary {
+    color: #505050;
+    text-indent: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.25rem;
+    font-size: 5rem;
+    margin-left: -2rem;
+}
+
+iframe {
+    padding: 4rem;
+    width: 100%;
+    height: 50rem;
+    margin: auto;
+
+}
