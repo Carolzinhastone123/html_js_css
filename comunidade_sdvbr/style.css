@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pixelify+Sans:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 
+    "wdth" 100;
+}
+
+
+body {
+    background: linear-gradient(to right, #43ff0f, #43e087, #42c0ff);
+}
+
+h1 {
+    text-align: center;
+    padding: 4.5rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-shadow: #000 0rem 0rem 2rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+footer {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: #060606 0rem 0rem 1rem;
+    color: #100f0f;
+}
+
+.imglogo_sdvbr.png {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
